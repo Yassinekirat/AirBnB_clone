@@ -7,9 +7,7 @@ import models
 
 
 class BaseModel:
-    """
-    Base class for all models.
-    """
+    """Base class for all models."""
     def __init__(self, *args, **kwargs):
         """
         Initialize a BaseModel instance.
